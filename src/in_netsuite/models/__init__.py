@@ -1,0 +1,9 @@
+from in_netsuite.models.credit_memo import *  # noqa: F403
+from in_netsuite.models.customer import *  # noqa: F403
+from in_netsuite.models.department import *  # noqa: F403
+from in_netsuite.models.employee import *  # noqa: F403
+from in_netsuite.models.invoice import *  # noqa: F403
+from in_netsuite.models.journal import *  # noqa: F403
+from in_netsuite.models.customer_payment import *  # noqa: F403
+from in_netsuite.models.vendor import *  # noqa: F403
+from in_netsuite.models.sales_order import *  # noqa: F403

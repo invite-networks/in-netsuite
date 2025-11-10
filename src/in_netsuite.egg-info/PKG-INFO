@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: in_netsuite
+Version: 0.1.0
+Summary: A Python package for connecting to NetSuite
+Requires-Python: >=3.11
+Requires-Dist: oauthlib>=3.2.2
+Requires-Dist: pydantic>=2.9
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: sqlmodel>=0.0.22
+Requires-Dist: async-lru>=2.0.5
+Requires-Dist: black==25.1.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest_asyncio; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pytailwindcss; extra == "dev"
+Requires-Dist: pip; extra == "dev"
+Requires-Dist: setuptools; extra == "dev"
