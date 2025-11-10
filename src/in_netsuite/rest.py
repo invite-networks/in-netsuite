@@ -173,7 +173,7 @@ class RestRequests:
     @classmethod
     async def delete_request(cls, url: str, response_codes: tuple[int, ...] = (204,), **kwargs) -> httpx.Response:
         """
-        Make a post request
+        Make a DELETE request
         Args:
             url: URL to append to the base url
             response_codes: Valid response codes to return from the server.
